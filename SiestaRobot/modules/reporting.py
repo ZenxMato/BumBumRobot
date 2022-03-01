@@ -92,7 +92,7 @@ def report(update: Update, context: CallbackContext) -> str:
             return ""
 
         if reported_user.id in REPORT_IMMUNE_USERS:
-            message.reply_text("Uh? You reporting a Kingdom Asosiation?")
+            message.reply_text("Uh? You reporting a problem?")
             return ""
 
         if chat.username and chat.type == Chat.SUPERGROUP:
@@ -100,7 +100,7 @@ def report(update: Update, context: CallbackContext) -> str:
             reported = f"{mention_html(user.id, user.first_name)} reported {mention_html(reported_user.id, reported_user.first_name)} to the admins!"
 
             msg = (
-                f"<b>⚠️ Report: </b>{html.escape(chat.title)}\n"
+                f"<b>🚨 Report: </b>{html.escape(chat.title)}\n"
                 f"<b> • Report by:</b> {mention_html(user.id, user.first_name)}(<code>{user.id}</code>)\n"
                 f"<b> • Reported user:</b> {mention_html(reported_user.id, reported_user.first_name)} (<code>{reported_user.id}</code>)\n"
             )
@@ -115,17 +115,17 @@ def report(update: Update, context: CallbackContext) -> str:
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚠ Kick",
+                        "⛔ Kick User",
                         callback_data=f"report_{chat.id}=kick={reported_user.id}={reported_user.first_name}",
                     ),
                     InlineKeyboardButton(
-                        "⛔️ Ban",
+                        "📛 Ban User",
                         callback_data=f"report_{chat.id}=banned={reported_user.id}={reported_user.first_name}",
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "❎ Delete Message",
+                        "💬 Delete Message",
                         callback_data=f"report_{chat.id}=delete={reported_user.id}={message.reply_to_message.message_id}",
                     ),
                 ],
