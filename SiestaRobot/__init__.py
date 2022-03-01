@@ -27,7 +27,7 @@ def get_user_list(__init__, key):
         return json.load(json_file)[key]
 
 # enable logging
-FORMAT = "[SiestaRobot] %(message)s"
+FORMAT = "[BumBumRobot] %(message)s"
 logging.basicConfig(
     handlers=[logging.FileHandler("log.txt"), logging.StreamHandler()],
     level=logging.INFO,
