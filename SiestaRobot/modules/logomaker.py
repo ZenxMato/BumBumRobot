@@ -109,12 +109,12 @@ async def logo_gen(event):
               stroke_width=strke, stroke_fill="black")
     flnme = f"logo.png"
     img.save(flnme, "png")
-    await xx.edit("`Uploading`")
+    await xx.edit("`🐻 Uploading Logo`")
     if os.path.exists(flnme):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Siesta Robot](https://t.me/Siestaxbot)",
+            caption="Logo by [ʙᴜᴍ ʙᴜᴍ ʙᴏᴛ](https://t.me/BumBumRobot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -128,7 +128,7 @@ async def logo_gen(event):
 
 @register(pattern="^/wlogo ?(.*)")
 async def logo_(event):
-    xx = await event.reply("`Preparing your logo...`")
+    xx = await event.reply("`🐻 Bum Bum Creating Logo...`")
     name = event.pattern_match.group(1)
     if not name:
         await xx.edit("`Provide some text to draw!\nExample: /wlogo <your name>!`")
@@ -192,12 +192,12 @@ async def logo_(event):
               stroke_width=strke, stroke_fill="black")
     flnme = f"logo.png"
     img.save(flnme, "png")
-    await xx.edit("`Uploading`")
+    await xx.edit("`🐻 Uploading Logo`")
     if os.path.exists(flnme):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Siesta Robot](https://t.me/Siestaxbot)",
+            caption="Logo by [ʙᴜᴍ ʙᴜᴍ ʙᴏᴛ](https://t.me/BumBumRobot)",
             force_document=False,
         )
         os.remove(flnme)
