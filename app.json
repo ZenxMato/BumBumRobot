@@ -1,5 +1,5 @@
 {
-      "name": "Siesta Robot",
+      "name": "Bum Bum Robot",
       "description": "A Powerful Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "naorobot"
       ],
     
-   "logo":    "https://telegra.ph/file/566d0f3fb2107bd8ecb27.jpg",  
-   "repository": "https://github.com/shiinobu/https://github.com/shiinobu/SiestaRobot",
+   "logo":    "https://telegra.ph/file/18c4db499a6e1eb2ddbed.jpg",  
+   "repository": "https://github.com/ZenxMato/BumBumRobot",
    "addons": [
           {
          "options": {
