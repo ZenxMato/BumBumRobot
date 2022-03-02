@@ -10,13 +10,13 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 # PM Text
 pm_start_text: |
   *Hey Darling, {} ❤️*
-  ✪ I'm an anime-theme management ʙᴜᴍ ʙᴜᴍ ʙᴏᴛ [🐻](https://telegra.ph/file/18c4db499a6e1eb2ddbed.jpg)
+  ✪ I'm management groups ʙᴜᴍ ʙᴜᴍ ʙᴏᴛ [🐻](https://telegra.ph/file/18c4db499a6e1eb2ddbed.jpg)
 
   ┏━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┓
   × *Server Uptime :* `{}`
   × `{}` *users, across* `{}` *chats.*
   ┗━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┛
-
+  ✪ I Can Playing Music & Manage Groups!
   ✪ Hit /help to see my available commands.
    
 group_start_text: |
@@ -82,14 +82,14 @@ group_settings_text: "Click here to get this chat's settings, as well as yours."
 group_settings_button: "Settings"
 
 # PM Button
-add_bot_to_group_button: "⌾ ᴀᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ ⌾"
+add_bot_to_group_button: "ᴀᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ"
 support_chat_link_button: "Support"
 updates_channel_link_button: "Update"
 notes_button: "Notes"
 source_button: "Source Code"
 help_button: "Get Help"
 back_button: "Go back"
-about_button: "About Bum Bum Robot"
+about_button: "ᴀʙᴏᴜᴛ ʙᴜᴍ ʙᴜᴍ ʀᴏʙᴏᴛ"
 inline_button: "Get Information!​​"
 
 # MODULES
